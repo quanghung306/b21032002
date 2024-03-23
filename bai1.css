@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    margin: 0 auto;
+    border-top: 1px solid black;
+}
+.container .register{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.btn{
+    margin-top: 10px;
+    color: white;
+}
+.btn .btn_reg{
+    margin-left: 10px;
+    background-color:rgb(23, 162, 184) ;
+    height: 50px;
+    width: 70px;
+    border-radius: 10px;
+    
+}
+.btn .btn_reset {
+    background-color:rgb(23, 162, 184);
+    height: 50px;
+    margin-left: 20px;
+    width: 70px;
+    border-radius: 10px;
+  
+}
